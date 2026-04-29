@@ -1,7 +1,13 @@
-Esse aqui é o README
+Como rodar:
 
-## Denini
+instalar as dependencias
 
-UPE 2026
+```bash
+pip install fastapi uvicorn sqlalchemy
+```
 
-ausdhuh
+rodar
+
+```bash
+uvicorn main:app --reload
+```
